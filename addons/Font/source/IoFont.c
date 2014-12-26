@@ -29,7 +29,7 @@ Smaller fonts (those having a point size around 30 or smaller, depending on the 
 
 
 #include "FreeTypeErrorCodes.h"
-#include <freetype/ftglyph.h>
+#include <freetype2/ftglyph.h>
 #include <math.h>
 
 #define DATA(self) ((IoFontData *)IoObject_dataPointer(self))
